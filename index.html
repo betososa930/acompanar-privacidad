@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad — Acompañar</title>
+<meta name="description" content="Qué datos guarda la app Acompañar, para qué, con quién se comparten y cómo se borran.">
+<style>
+  :root {
+    --fondo: #fbfaf8;
+    --papel: #ffffff;
+    --texto: #23201c;
+    --suave: #5d574e;
+    --linea: #e4dfd6;
+    --acento: #6b4f2a;
+    --aviso-fondo: #fdf6e6;
+    --aviso-linea: #d9b874;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --fondo: #16140f;
+      --papel: #1e1b16;
+      --texto: #ece7dd;
+      --suave: #a79f92;
+      --linea: #35302a;
+      --acento: #d7b27a;
+      --aviso-fondo: #2a2317;
+      --aviso-linea: #7a6033;
+    }
+  }
+  :root[data-theme="dark"] {
+    --fondo: #16140f;
+    --papel: #1e1b16;
+    --texto: #ece7dd;
+    --suave: #a79f92;
+    --linea: #35302a;
+    --acento: #d7b27a;
+    --aviso-fondo: #2a2317;
+    --aviso-linea: #7a6033;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--fondo);
+    color: var(--texto);
+    font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+
+  .hoja {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 3rem 16px 5rem;
+  }
+
+  header { border-bottom: 2px solid var(--linea); padding-bottom: 1.5rem; margin-bottom: 2.5rem; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .5rem; }
+  .sub { color: var(--suave); margin: 0; font-size: .95rem; }
+
+  h2 {
+    font-size: 1.25rem;
+    margin: 2.75rem 0 .75rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--linea);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  h3 { font-size: 1.02rem; margin: 1.5rem 0 .4rem; }
+
+  p, li { color: var(--texto); }
+  a { color: var(--acento); }
+  ul { padding-left: 1.2rem; }
+  li { margin-bottom: .45rem; }
+  strong { font-weight: 650; }
+
+  .tabla { width: 100%; border-collapse: collapse; margin: 1.25rem 0; font-size: .95rem; }
+  .tabla th, .tabla td {
+    text-align: left;
+    vertical-align: top;
+    padding: .7rem .6rem;
+    border-bottom: 1px solid var(--linea);
+  }
+  .tabla th { color: var(--suave); font-weight: 600; font-size: .82rem; text-transform: uppercase; letter-spacing: .04em; }
+
+  .aviso {
+    background: var(--aviso-fondo);
+    border-left: 4px solid var(--aviso-linea);
+    border-radius: 0 6px 6px 0;
+    padding: 1rem 1.1rem;
+    margin: 1.5rem 0;
+  }
+  .aviso p:last-child { margin-bottom: 0; }
+  .aviso p:first-child { margin-top: 0; }
+
+  footer {
+    margin-top: 3.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--linea);
+    color: var(--suave);
+    font-size: .9rem;
+  }
+
+  @media (max-width: 34rem) {
+    .hoja { padding-top: 2rem; }
+    h1 { font-size: 1.55rem; }
+    body { font-size: 16px; }
+    .tabla, .tabla tbody, .tabla tr, .tabla td { display: block; width: 100%; }
+    .tabla thead { display: none; }
+    .tabla tr { border-bottom: 1px solid var(--linea); padding: .6rem 0; }
+    .tabla td { border: 0; padding: .15rem 0; }
+    .tabla td:first-child { font-weight: 650; }
+  }
+</style>
+</head>
+<body>
+<main class="hoja">
+
+<header>
+  <h1>Política de privacidad de Acompañar</h1>
+  <p class="sub">
+    Aplicación <strong>Acompañar</strong> (<code>dev.transformalab.acompanar</code>) para Android.<br>
+    Vigente desde el 21 de setiembre de 2026.
+  </p>
+</header>
+
+<h2>Quién es responsable</h2>
+
+<p>
+  <strong>TransformaLab</strong>, Minas, departamento de Lavalleja, Uruguay, desarrolla y
+  opera la app Acompañar y es responsable de los datos que se describen acá.
+</p>
+
+<p>
+  Para cualquier consulta sobre esta política, para pedir una copia de tus datos o para
+  pedir que se borren:
+  <a href="mailto:CORREO-DE-CONTACTO@EJEMPLO.COM">CORREO-DE-CONTACTO@EJEMPLO.COM</a>.
+</p>
+
+<h2>Qué hace la app, en una línea</h2>
+
+<p>
+  Acompañar le recuerda a una persona mayor que tome su medicación y le permite avisar con
+  un botón que está bien. Si algo no se confirma, un familiar recibe una alerta en su
+  teléfono. Todo lo que se guarda existe para que eso funcione.
+</p>
+
+<h2>La parte más importante: los datos son de otra persona</h2>
+
+<div class="aviso">
+  <p>
+    En el uso normal de Acompañar, <strong>quien crea la cuenta es el familiar y los datos
+    de salud son de otra persona</strong>: el adulto mayor, que no instala la app, no
+    configura nada y no hace login.
+  </p>
+  <p>
+    Si sos el familiar que carga esos datos, <strong>necesitás el consentimiento de esa
+    persona</strong> antes de cargar su medicación, su presión arterial o sus consultas
+    médicas, o la autorización legal para hacerlo en su nombre. La ley uruguaya
+    n.º 18.331 trata los datos de salud como <strong>datos sensibles</strong> y exige
+    consentimiento expreso y por escrito del titular. No podemos verificar ese
+    consentimiento desde acá: es tu responsabilidad tenerlo.
+  </p>
+</div>
+
+<h2>Qué datos se guardan</h2>
+
+<p>Nada de esto se pide "por las dudas". Cada dato está porque algo lo necesita:</p>
+
+<h3>De la persona acompañada</h3>
+
+<table class="tabla">
+  <thead><tr><th>Dato</th><th>Para qué</th></tr></thead>
+  <tbody>
+    <tr><td>Nombre</td><td>Identificarla en la pantalla y en los avisos al familiar.</td></tr>
+    <tr><td>Zona horaria</td><td>Que el recordatorio suene a su hora y no a la del servidor.</td></tr>
+    <tr><td>Medicación: nombre, dosis, horarios, frecuencia y stock</td><td>Calcular los recordatorios y avisar cuándo hay que comprar.</td></tr>
+    <tr><td>Confirmaciones de toma y de "estoy bien", con fecha y hora</td><td>Saber qué se confirmó y qué no. Es lo que dispara —o no— la alerta.</td></tr>
+    <tr><td>Presión arterial: sistólica, diastólica, pulso y una nota</td><td>Llevar el registro que el familiar carga y consulta.</td></tr>
+    <tr><td>Consultas médicas: fecha, hora, profesional, lugar y una nota</td><td>Recordar la consulta la víspera y el mismo día.</td></tr>
+    <tr><td>Teléfono y nombre de un contacto</td><td>El botón de llamar a la familia.</td></tr>
+    <tr><td>Registro de llamadas hechas desde la app: cuándo y quién atendió el aviso</td><td>Que el aviso escale a otro familiar si nadie responde, y no insista una vez que alguien se hizo cargo.</td></tr>
+  </tbody>
+</table>
+
+<p>
+  <strong>No se graba audio ni video, no se registra la ubicación y no se accede a la
+  agenda de contactos del teléfono.</strong> El único número que la app conoce es el que
+  el familiar escribe a mano.
+</p>
+
+<h3>Del familiar que usa la app</h3>
+
+<table class="tabla">
+  <thead><tr><th>Dato</th><th>Para qué</th></tr></thead>
+  <tbody>
+    <tr><td>Nombre y correo electrónico</td><td>Identificar la cuenta e iniciar sesión.</td></tr>
+    <tr><td>Contraseña</td><td>Se guarda <strong>hasheada</strong>, nunca en texto plano. Ni nosotros podemos leerla.</td></tr>
+    <tr><td>Identificador de notificaciones push del dispositivo</td><td>Poder mandarle la alerta al teléfono correcto.</td></tr>
+  </tbody>
+</table>
+
+<h3>Del aparato del adulto mayor</h3>
+
+<p>
+  Un nombre que le pone el familiar ("la tablet de la abuela"), su identificador de
+  notificaciones push, y la fecha del último contacto con el servidor. El aparato se
+  vincula con un código de seis dígitos; no lleva cuenta ni contraseña.
+</p>
+
+<h2>Lo que la app NO hace</h2>
+
+<ul>
+  <li><strong>No hay publicidad</strong> de ningún tipo.</li>
+  <li><strong>No hay analytics ni rastreo.</strong> La app no lleva estadísticas de uso ni perfila a nadie.</li>
+  <li><strong>No se venden ni se alquilan los datos</strong>, ni se ceden a terceros con fines comerciales.</li>
+  <li><strong>No se usan los datos de salud para publicidad</strong>, propia ni ajena.</li>
+  <li><strong>No hay identificadores publicitarios</strong> ni SDK de terceros más allá de los necesarios para el push.</li>
+</ul>
+
+<h2>Con quién se comparten</h2>
+
+<p>Solo con quienes hacen falta para que la app funcione, y solo con esos fines:</p>
+
+<ul>
+  <li>
+    <strong>Otros familiares de la misma persona.</strong> Es el sentido de la app: quien
+    esté autorizado a cuidar a esa persona ve sus datos. Nadie ve los datos de una persona
+    que no tiene asignada.
+  </li>
+  <li>
+    <strong>Google (Firebase Cloud Messaging)</strong>, para entregar las notificaciones
+    push. Viaja el texto del aviso y el identificador del dispositivo.
+  </li>
+  <li>
+    <strong>Render</strong>, donde corre el servidor, y <strong>Neon</strong>, donde está
+    la base de datos. Almacenan los datos por cuenta nuestra; no los usan para nada propio.
+  </li>
+</ul>
+
+<p>
+  Esos proveedores pueden alojar la información fuera de Uruguay, en Estados Unidos o en la
+  Unión Europea. Al usar la app aceptás esa transferencia.
+</p>
+
+<p>
+  Aparte de eso, solo se entregarían datos si lo ordenara una autoridad competente.
+</p>
+
+<h2>Cuánto tiempo se guardan</h2>
+
+<p>
+  Mientras la cuenta exista. El historial de confirmaciones, presión y consultas se
+  conserva porque el sentido de la app es poder mirar atrás. <strong>Cuando se borra, se
+  borra de verdad</strong>: no queda una copia "inactiva".
+</p>
+
+<p>
+  Las copias de respaldo del proveedor de base de datos pueden retener información hasta 30
+  días más antes de rotar.
+</p>
+
+<h2>Cómo borrar los datos</h2>
+
+<h3>Borrar a una persona acompañada</h3>
+
+<p>
+  Desde la app: <em>Ajustes → la persona → Eliminar</em>. Eso borra su medicación, sus
+  confirmaciones, su presión arterial, sus consultas, sus alertas y desvincula el aparato,
+  que deja de funcionar en el acto. <strong>No se puede deshacer.</strong>
+</p>
+
+<h3>Borrar la cuenta del familiar</h3>
+
+<p>
+  Escribí a
+  <a href="mailto:CORREO-DE-CONTACTO@EJEMPLO.COM">CORREO-DE-CONTACTO@EJEMPLO.COM</a>
+  desde la dirección con la que te registraste, pidiendo la baja. Se borra la cuenta y todo
+  lo asociado <strong>dentro de los 30 días</strong>, y te confirmamos por correo cuando
+  está hecho.
+</p>
+
+<h2>Cómo se protegen</h2>
+
+<ul>
+  <li>Todo el tráfico entre la app y el servidor va cifrado por <strong>HTTPS</strong>.</li>
+  <li>Las contraseñas se guardan <strong>hasheadas</strong>, nunca en texto plano.</li>
+  <li>Los tokens de sesión se guardan en el <strong>llavero cifrado del sistema</strong>, no en un archivo común.</li>
+  <li>El servidor verifica en cada pedido que quien pregunta esté autorizado a ver <em>esa</em> persona, y responde como si no existiera cuando no lo está.</li>
+</ul>
+
+<p>
+  Ningún sistema es infalible. Si llegara a haber un incidente que afecte tus datos, te
+  avisamos por correo.
+</p>
+
+<h2>Permisos que pide la app, y por qué</h2>
+
+<table class="tabla">
+  <thead><tr><th>Permiso</th><th>Para qué</th></tr></thead>
+  <tbody>
+    <tr><td>Notificaciones</td><td>Mostrar los recordatorios y las alertas. Sin esto la app no sirve para nada.</td></tr>
+    <tr><td>Alarmas exactas</td><td>Que el recordatorio suene a la hora, y no cuando el sistema tenga ganas.</td></tr>
+    <tr><td>Iniciar al encender el teléfono</td><td>Reprogramar los recordatorios después de un reinicio; si no, se pierden.</td></tr>
+    <tr><td>Llamar por teléfono</td><td>El botón de llamar a la familia marca directo. La app <strong>no</strong> hace llamadas por su cuenta: solo cuando alguien aprieta el botón.</td></tr>
+    <tr><td>Vibrar</td><td>Acompañar el aviso, para quien no escucha bien.</td></tr>
+    <tr><td>Internet</td><td>Hablar con el servidor.</td></tr>
+  </tbody>
+</table>
+
+<h2>Menores de edad</h2>
+
+<p>
+  Acompañar no está dirigida a menores de 18 años y no se recogen datos de menores a
+  sabiendas. Si detectamos una cuenta de un menor, la damos de baja.
+</p>
+
+<h2>Tus derechos</h2>
+
+<p>
+  Según la ley uruguaya n.º 18.331 de Protección de Datos Personales, tenés derecho a
+  <strong>acceder</strong> a tus datos, <strong>rectificarlos</strong> si están mal,
+  <strong>pedir que se supriman</strong> y <strong>retirar el consentimiento</strong>.
+  Escribí a
+  <a href="mailto:CORREO-DE-CONTACTO@EJEMPLO.COM">CORREO-DE-CONTACTO@EJEMPLO.COM</a>
+  y respondemos dentro de los plazos que fija la ley.
+</p>
+
+<p>
+  Si considerás que no se respetaron esos derechos, podés reclamar ante la
+  <a href="https://www.gub.uy/unidad-reguladora-control-datos-personales/">Unidad
+  Reguladora y de Control de Datos Personales (URCDP)</a> de Uruguay.
+</p>
+
+<h2>Cambios en esta política</h2>
+
+<p>
+  Si cambia, se publica acá con una fecha nueva arriba. Si el cambio es de fondo —datos
+  nuevos, un destinatario nuevo—, además se avisa dentro de la app antes de que entre en
+  vigencia.
+</p>
+
+<h2>Contacto</h2>
+
+<p>
+  TransformaLab — Minas, Lavalleja, Uruguay<br>
+  <a href="mailto:CORREO-DE-CONTACTO@EJEMPLO.COM">CORREO-DE-CONTACTO@EJEMPLO.COM</a>
+</p>
+
+<footer>
+  Última actualización: 21 de setiembre de 2026.
+</footer>
+
+</main>
+</body>
+</html>
