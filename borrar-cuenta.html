@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Borrar tu cuenta — Acompañar</title>
+<meta name="description" content="Cómo pedir que se borre tu cuenta de Acompañar y qué datos se eliminan.">
+<style>
+  :root {
+    --fondo: #fbfaf8;
+    --papel: #ffffff;
+    --texto: #23201c;
+    --suave: #5d574e;
+    --linea: #e4dfd6;
+    --acento: #6b4f2a;
+    --aviso-fondo: #fdf6e6;
+    --aviso-linea: #d9b874;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --fondo: #16140f; --papel: #1e1b16; --texto: #ece7dd; --suave: #a79f92;
+      --linea: #35302a; --acento: #d7b27a; --aviso-fondo: #2a2317; --aviso-linea: #7a6033;
+    }
+  }
+  :root[data-theme="dark"] {
+    --fondo: #16140f; --papel: #1e1b16; --texto: #ece7dd; --suave: #a79f92;
+    --linea: #35302a; --acento: #d7b27a; --aviso-fondo: #2a2317; --aviso-linea: #7a6033;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--fondo);
+    color: var(--texto);
+    font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+
+  .hoja { max-width: 44rem; margin: 0 auto; padding: 3rem 16px 5rem; }
+
+  header { border-bottom: 2px solid var(--linea); padding-bottom: 1.5rem; margin-bottom: 2.5rem; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .5rem; }
+  .sub { color: var(--suave); margin: 0; font-size: .95rem; }
+
+  h2 {
+    font-size: 1.25rem;
+    margin: 2.75rem 0 .75rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--linea);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+
+  a { color: var(--acento); }
+  ul, ol { padding-left: 1.2rem; }
+  li { margin-bottom: .55rem; }
+  strong { font-weight: 650; }
+
+  .tabla { width: 100%; border-collapse: collapse; margin: 1.25rem 0; font-size: .95rem; }
+  .tabla th, .tabla td {
+    text-align: left; vertical-align: top;
+    padding: .7rem .6rem; border-bottom: 1px solid var(--linea);
+  }
+  .tabla th {
+    color: var(--suave); font-weight: 600; font-size: .82rem;
+    text-transform: uppercase; letter-spacing: .04em;
+  }
+
+  .aviso {
+    background: var(--aviso-fondo);
+    border-left: 4px solid var(--aviso-linea);
+    border-radius: 0 6px 6px 0;
+    padding: 1rem 1.1rem;
+    margin: 1.5rem 0;
+  }
+  .aviso p:first-child { margin-top: 0; }
+  .aviso p:last-child { margin-bottom: 0; }
+
+  .correo {
+    display: inline-block;
+    font-size: 1.05rem;
+    font-weight: 650;
+    padding: .2rem 0;
+  }
+
+  footer {
+    margin-top: 3.5rem; padding-top: 1.5rem;
+    border-top: 1px solid var(--linea);
+    color: var(--suave); font-size: .9rem;
+  }
+
+  @media (max-width: 34rem) {
+    .hoja { padding-top: 2rem; }
+    h1 { font-size: 1.55rem; }
+    body { font-size: 16px; }
+    .tabla, .tabla tbody, .tabla tr, .tabla td { display: block; width: 100%; }
+    .tabla thead { display: none; }
+    .tabla tr { border-bottom: 1px solid var(--linea); padding: .6rem 0; }
+    .tabla td { border: 0; padding: .15rem 0; }
+    .tabla td:first-child { font-weight: 650; }
+  }
+</style>
+</head>
+<body>
+<main class="hoja">
+
+<header>
+  <h1>Borrar tu cuenta de Acompañar</h1>
+  <p class="sub">
+    Aplicación <strong>Acompañar</strong> (<code>dev.transformalab.acompanar</code>),
+    desarrollada por <strong>TransformaLab</strong>.<br>
+    Última actualización: 21 de setiembre de 2026.
+  </p>
+</header>
+
+<h2>Cómo pedir que se borre tu cuenta</h2>
+
+<ol>
+  <li>
+    Escribí un correo a:<br>
+    <a class="correo" href="mailto:betososa930@gmail.com?subject=Baja%20de%20cuenta%20de%20Acompa%C3%B1ar">betososa930@gmail.com</a>
+  </li>
+  <li>
+    Mandalo <strong>desde la misma dirección con la que te registraste</strong> en la app.
+    Es la única forma que tenemos de comprobar que la cuenta es tuya.
+  </li>
+  <li>
+    Poné en el asunto <strong>«Baja de cuenta de Acompañar»</strong>. En el cuerpo no hace
+    falta nada más; nunca mandes tu contraseña.
+  </li>
+  <li>
+    Se borra la cuenta y los datos asociados <strong>dentro de los 30 días</strong>, y te
+    confirmamos por correo cuando está hecho.
+  </li>
+</ol>
+
+<div class="aviso">
+  <p>
+    <strong>El borrado no se puede deshacer.</strong> No queda una copia "inactiva" ni un
+    período de gracia para arrepentirse: una vez borrado, los datos no se pueden recuperar.
+  </p>
+</div>
+
+<h2>Qué se borra</h2>
+
+<table class="tabla">
+  <thead><tr><th>Dato</th><th>Qué pasa</th></tr></thead>
+  <tbody>
+    <tr><td>Tu nombre y tu dirección de correo</td><td>Se borran</td></tr>
+    <tr><td>Tu contraseña (guardada hasheada)</td><td>Se borra</td></tr>
+    <tr><td>El identificador de notificaciones de tus dispositivos</td><td>Se borra</td></tr>
+    <tr><td>Las personas de las que seas el único cuidador, con su nombre, su contacto y su configuración</td><td>Se borran</td></tr>
+    <tr><td>Su medicación, horarios, frecuencias y stock</td><td>Se borran</td></tr>
+    <tr><td>Sus confirmaciones de toma y de «estoy bien»</td><td>Se borran</td></tr>
+    <tr><td>Su registro de presión arterial</td><td>Se borra</td></tr>
+    <tr><td>Sus consultas médicas agendadas</td><td>Se borran</td></tr>
+    <tr><td>Su registro de llamadas y sus alertas</td><td>Se borran</td></tr>
+    <tr><td>Las tablets o teléfonos vinculados a esas personas</td><td>Se desvinculan y dejan de funcionar en el acto</td></tr>
+  </tbody>
+</table>
+
+<h2>Qué se conserva, y por cuánto tiempo</h2>
+
+<table class="tabla">
+  <thead><tr><th>Dato</th><th>Por cuánto</th></tr></thead>
+  <tbody>
+    <tr>
+      <td>Las personas que también cuida <strong>otro familiar</strong>, con todos sus datos</td>
+      <td>Siguen existiendo para esos otros cuidadores. Vos dejás de tener acceso. Si querés que se borren del todo, pedilo en el mismo correo y lo coordinamos con ellos.</td>
+    </tr>
+    <tr>
+      <td>Copias de respaldo del proveedor de base de datos</td>
+      <td>Hasta <strong>30 días adicionales</strong>, hasta que rotan. No se consultan ni se usan para nada salvo para recuperar el servicio ante una falla.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+  Fuera de eso no se conserva nada: no guardamos una copia de los datos borrados ni un
+  registro histórico de la cuenta.
+</p>
+
+<h2>Borrar datos sin borrar la cuenta</h2>
+
+<p>
+  Si no querés darte de baja pero sí eliminar información, podés hacerlo vos mismo desde la
+  app, sin pedirnos nada:
+</p>
+
+<ul>
+  <li>
+    <strong>Una persona entera, con todos sus datos</strong>:
+    <em>Ajustes → la persona → Eliminar</em>. Borra su medicación, sus confirmaciones, su
+    presión arterial, sus consultas y sus alertas, y desvincula su aparato.
+  </li>
+  <li>
+    <strong>Un medicamento</strong>, con su historial: <em>Ajustes → la persona → Remedios</em>.
+  </li>
+  <li>
+    <strong>Una medición de presión</strong> o <strong>una consulta médica</strong>: desde la
+    solapa <em>Salud</em>.
+  </li>
+</ul>
+
+<p>Todo eso es inmediato y tampoco se puede deshacer.</p>
+
+<h2>Contacto</h2>
+
+<p>
+  TransformaLab — Minas, Lavalleja, Uruguay<br>
+  <a href="mailto:betososa930@gmail.com">betososa930@gmail.com</a>
+</p>
+
+<footer>
+  <a href="./">← Política de privacidad de Acompañar</a>
+</footer>
+
+</main>
+</body>
+</html>
